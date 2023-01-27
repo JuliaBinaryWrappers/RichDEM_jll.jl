@@ -1,85 +1,440 @@
 [[RichDEM]]
 arch = "aarch64"
-git-tree-sha1 = "2ce076c6156291734a9fc23f9b0eb4dde6ef8c58"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "96d2ab8f01dea2838f0038b1045f91348934887b"
+julia_version = "1.6.3"
 libc = "glibc"
 os = "linux"
 
     [[RichDEM.download]]
-    sha256 = "da94dc1f62f0d7b252fa7225871a91411b226af4f51238a7f2152ac95c5d92dd"
-    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+0/RichDEM.v2.3.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "fe71413b8fb6040b304c200e3c1d19c69c5b77c5e203d767b21342b47093a24a"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.aarch64-linux-gnu-cxx03-julia_version+1.6.3.tar.gz"
 [[RichDEM]]
 arch = "aarch64"
-git-tree-sha1 = "ef490f236fe52118961cb35279225505b7f0bac6"
-libc = "musl"
-os = "linux"
-
-    [[RichDEM.download]]
-    sha256 = "1d75b8353b936f71c9e63d68bed3d1356f055dc446f3c512bf810a179962e6ad"
-    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+0/RichDEM.v2.3.1.aarch64-linux-musl.tar.gz"
-[[RichDEM]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "170ff85fcb3a34dfc0c1a736bf0e092af3d31ca1"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ed71c29d58206f464dd9947923fe304e78717b5b"
+julia_version = "1.8.0"
 libc = "glibc"
 os = "linux"
 
     [[RichDEM.download]]
-    sha256 = "ab9106f90d9b323efe4d37bfe24e82da03c0ffd5484e4a5deb9d43c7a08de0b0"
-    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+0/RichDEM.v2.3.1.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "fc9c9eeed14171f513455550f4c422619c3b1bcb523fa7e9b6109214c695cc5e"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.aarch64-linux-gnu-cxx03-julia_version+1.8.0.tar.gz"
 [[RichDEM]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "cd5af5e8d4a2cc1cbf4ed4abab0c5d01d98b2645"
-libc = "musl"
-os = "linux"
-
-    [[RichDEM.download]]
-    sha256 = "358f2541bf520f7c6d75f4a0b4470ff5c319bd77eae4061f2c35de3d9cb9e9de"
-    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+0/RichDEM.v2.3.1.armv6l-linux-musleabihf.tar.gz"
-[[RichDEM]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "e966f19ffa4903fa38b126e8e153cc825c707221"
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "18919a7db650660a2da91e616fb349181fd9e971"
+julia_version = "1.6.3"
 libc = "glibc"
 os = "linux"
 
     [[RichDEM.download]]
-    sha256 = "ac15cb412e9c195c65e7bcfc9c74b5a79735944377c980d9d3b18d1f35b68cf6"
-    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+0/RichDEM.v2.3.1.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "56736db0ab282956e17ba5aa355797ae9aa5e9c1c085be8dec6879b97601987d"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.aarch64-linux-gnu-cxx11-julia_version+1.6.3.tar.gz"
 [[RichDEM]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "54619f35f8a55f0ac577c99ea03ca9bb5e0718b1"
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "83207a14184a012f360c9bbbed745e3134766699"
+julia_version = "1.8.0"
+libc = "glibc"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "e42c28c2f3be3f75ecd2e6b3b4c212dfc38cb29bef54900e1b5e66eb776afe32"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.aarch64-linux-gnu-cxx11-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b9e2fcb423abc10309b22bf9b072e21774600080"
+julia_version = "1.6.3"
 libc = "musl"
 os = "linux"
 
     [[RichDEM.download]]
-    sha256 = "fb20e2154aa058e1c329a664e9fbae85c9ec68a99746e3010f702154fa1f23ed"
-    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+0/RichDEM.v2.3.1.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "10a6b2c35d28e2127bcfd41d40d0b8e6d756da40fbedc9925390e3bcb00d3d77"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.aarch64-linux-musl-cxx03-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4ad3cb9f1995473a67a99517b6dbcec58fae4900"
+julia_version = "1.8.0"
+libc = "musl"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "3efa9810f33217f2229b8ef06adae89493dc66e23bd47f9265a4dfa18edb824f"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.aarch64-linux-musl-cxx03-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "87beebd5d788049d0aa683aab61af02b4f556094"
+julia_version = "1.6.3"
+libc = "musl"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "361f8fa382cb7dd28e06f28de22ff4010ee8d21d6d1d3aea071931d17d1e290b"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.aarch64-linux-musl-cxx11-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "111b9d0b34fb1acdfcac0c64a83a0d9bfd9bfa8d"
+julia_version = "1.8.0"
+libc = "musl"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "f6855336aa1fafacff00807bbec72a12deecc943c47f533d17d56addb7570a4f"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.aarch64-linux-musl-cxx11-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "cef482f6f37a56e697fc19fbb8fd9eec4384ae27"
+julia_version = "1.6.3"
+libc = "glibc"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "d0c1523d5d13908f501bd1c2c62539d3f580c1fc5db8cfbc44da737031685957"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.armv7l-linux-gnueabihf-cxx03-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "54de6193ad390d75dfd054aeba986b1adc9d9f50"
+julia_version = "1.8.0"
+libc = "glibc"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "d12f3f5ce1e463069c37c561e8ea864eb1087d3f35c9380bef0b222fa91c8ab4"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.armv7l-linux-gnueabihf-cxx03-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "37f6092548e1b7023a725ceb3e34e913ac7758d8"
+julia_version = "1.6.3"
+libc = "glibc"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "5baf529a63ce86063d52a6e4f1456b1cf1dd76e79c9d7e670ef1c43c9473dac4"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.armv7l-linux-gnueabihf-cxx11-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c26b624dde2d31a3685dbd683ee390b6099683a7"
+julia_version = "1.8.0"
+libc = "glibc"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "d71c4695a24a8e72d08a7ba5b425086953d5aab88c2cc801b5147e91d63568ba"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.armv7l-linux-gnueabihf-cxx11-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0e7f70c2b865fe8aebe975a6ffb7dec235c17ab9"
+julia_version = "1.6.3"
+libc = "musl"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "fa2d3565a94441f8cc2d5f1ce945113268358dda5eebae61321255148a8f639b"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.armv7l-linux-musleabihf-cxx03-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7b1dbfaede2d1fd28cf4586ef067af27c91274dc"
+julia_version = "1.8.0"
+libc = "musl"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "382b3ad1b6a89c067821daae69758c1fab045c9ac2588a467fec9b987d009c28"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.armv7l-linux-musleabihf-cxx03-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d56ea3ff7111f1ddd4d052c90af5ebaa4369c4b4"
+julia_version = "1.6.3"
+libc = "musl"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "71c822faede699295016e32a1d2c10efa3ffbcb3f711cf342eb2249bd1f51dca"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.armv7l-linux-musleabihf-cxx11-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8d9b3f07bfd7e685e007709c9d63f939f3d60fe1"
+julia_version = "1.8.0"
+libc = "musl"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "59f5b0c8ccd7bd674063acbf6a72167c9e9a27a0cfb049f4a176ef02d41d47ba"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.armv7l-linux-musleabihf-cxx11-julia_version+1.8.0.tar.gz"
 [[RichDEM]]
 arch = "i686"
-git-tree-sha1 = "682a5229d6683923f8ce9e7a5ae174432bb2e169"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b358650bf08bb7b0c50cc092e7f9c6a4f7395ab5"
+julia_version = "1.6.3"
 libc = "glibc"
 os = "linux"
 
     [[RichDEM.download]]
-    sha256 = "f8856429851bfef771407e1e49662fa6da47128b9f45242d83fed3f7bd212619"
-    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+0/RichDEM.v2.3.1.i686-linux-gnu.tar.gz"
+    sha256 = "38c2d530cb8370bdb356a364d87fd8bc9aa125e992d16a5072044a9f5e106720"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.i686-linux-gnu-cxx03-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0f6c2e3786bca0729b4a50c136b230d394021707"
+julia_version = "1.8.0"
+libc = "glibc"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "27410713cf97a9a222c8d5a9aea262abcb81c7468f8d8fc404defa4de5d20d8c"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.i686-linux-gnu-cxx03-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b65cf8525a4bb9f1e2fadcbfbd5a70d737de3270"
+julia_version = "1.6.3"
+libc = "glibc"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "21683d5abcf22ce814852785621634eb0856cd8f7015bb303d782887ca4f8a90"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.i686-linux-gnu-cxx11-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ca158b5e39095cc4a475b307ca66015acdad8088"
+julia_version = "1.8.0"
+libc = "glibc"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "ddc235bd5ae57cc0469a56991dbc3e25aaef59eb41dcccd1727e7aa84c6a79f6"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.i686-linux-gnu-cxx11-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7bdbfb7b7bcd075446fb460775d566484025ee44"
+julia_version = "1.6.3"
+os = "windows"
+
+    [[RichDEM.download]]
+    sha256 = "a043008ff9f498c37f1e39a20213260ca2f045285b68b35256ec48eb59004443"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.i686-w64-mingw32-cxx03-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "aac6edd6a488bad365276d6f9abf0199d5a7257b"
+julia_version = "1.8.0"
+os = "windows"
+
+    [[RichDEM.download]]
+    sha256 = "be24c446e7625ddf49bc3758a82f060b2638084be22b70b7a95fbb692c474ff7"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.i686-w64-mingw32-cxx03-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "097f4b0cb9076a6b20f98cb88ee58e7fc402ef0d"
+julia_version = "1.6.3"
+os = "windows"
+
+    [[RichDEM.download]]
+    sha256 = "e76d51bfdc6f1df9aeede2ffaae7b829074df47c374580359b931371b3e17508"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.i686-w64-mingw32-cxx11-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d5af4aaa1f61b95fecd09ad7b31ff57495d1684b"
+julia_version = "1.8.0"
+os = "windows"
+
+    [[RichDEM.download]]
+    sha256 = "2c6f3bb971a3793d61c5ab48c95d96780be42df035cebf799677084e4af1f173"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.i686-w64-mingw32-cxx11-julia_version+1.8.0.tar.gz"
 [[RichDEM]]
 arch = "powerpc64le"
-git-tree-sha1 = "0179d25ba7d69f68752cd0ad60425f29750805c7"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b169abcea99e126a89f6049ee1f94c13e5edfadd"
+julia_version = "1.6.3"
 libc = "glibc"
 os = "linux"
 
     [[RichDEM.download]]
-    sha256 = "c5f1609c452466e0413658501ee2ce7c9c8092f2d90be4d160e5d14a894dfd7f"
-    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+0/RichDEM.v2.3.1.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "4f8d3c05b3611ad8e84383027ae6803205f7d4aca1fd1138aa56c780d18aa939"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.powerpc64le-linux-gnu-cxx03-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d890ea1f6e335024c093a193f0c77605e8eb589f"
+julia_version = "1.8.0"
+libc = "glibc"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "20db1e89fe4759200bf321b7e504401ecc01d9de7eb80c5fff0da5ad91ab204b"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.powerpc64le-linux-gnu-cxx03-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "832f4a40b79b684dc965c095de9b81915e4a0096"
+julia_version = "1.6.3"
+libc = "glibc"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "570040b01985147b977f62cf3630a2e1cbe75e11dee042871ef5b12a2e6bac9e"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.powerpc64le-linux-gnu-cxx11-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "815674bdbbea4b4f3fbfc3a0d19aed224185b272"
+julia_version = "1.8.0"
+libc = "glibc"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "1ffeab9a9172ef7d8c3490990befc263ea86e58aee9f6608f993ab8b513f28da"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.powerpc64le-linux-gnu-cxx11-julia_version+1.8.0.tar.gz"
 [[RichDEM]]
 arch = "x86_64"
-git-tree-sha1 = "b717953327b36aae1607d17f1f4a4c7b3cdfdb87"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "50de20d6c95f9e6ce2ddbf4d18a7c3f7b37b0771"
+julia_version = "1.6.3"
 libc = "glibc"
 os = "linux"
 
     [[RichDEM.download]]
-    sha256 = "293a700c4c04d29f1074d4b446babf338cff0b73dd2805b69a1ddd03c63f894d"
-    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+0/RichDEM.v2.3.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "623c0326d6c7955fb7cfb2fa5453c27b2e20a3b6d2e96dbe3744ceb9b788a19d"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.x86_64-linux-gnu-cxx03-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a2531d28d7a95b518aadff25087cb2f04bd5c173"
+julia_version = "1.8.0"
+libc = "glibc"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "c3a21b78ab0273c3705d334fabaecb1ba52ed584d173ed9966ad1ec5dd5798e7"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.x86_64-linux-gnu-cxx03-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "236e2a9e0b7547bd2d9260bef1e1a0257189bc8a"
+julia_version = "1.6.3"
+libc = "glibc"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "84b35b44eef290c6d3c1a2850fc3987cc1ea1a27a5931dfb65403568fb0f22c2"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.x86_64-linux-gnu-cxx11-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "47a4bfe4a7acf49296ad51a2f65f382e8c0a2590"
+julia_version = "1.8.0"
+libc = "glibc"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "5a8d971e909a1ad0a3811ecea6eb5151c308c6705095c88d1034fc54eb1d5d2b"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.x86_64-linux-gnu-cxx11-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0b2b8919134e4f2be291fe26ce5921c41499563c"
+julia_version = "1.6.3"
+libc = "musl"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "814ee50814d94a9d529c781d7092a496f8ac086ab260f57100eb2430b235c8d1"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.x86_64-linux-musl-cxx03-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "281aaee014ece5a12305591cb24d909f3b7fe457"
+julia_version = "1.8.0"
+libc = "musl"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "5c9a1ffd9e182b4bb4ae0588cae3b9d3786e4afd6db11d31b3d441a6fdac8eaf"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.x86_64-linux-musl-cxx03-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5b4c602f12808e49be9fe7a94a82393865a232c6"
+julia_version = "1.6.3"
+libc = "musl"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "d0530941078fe09f5eb745aad4da7f280196eec220d3b37cace5975c39fb1567"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.x86_64-linux-musl-cxx11-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "dc78b6cd2a2437252527c6cfc390fad2f919d82a"
+julia_version = "1.8.0"
+libc = "musl"
+os = "linux"
+
+    [[RichDEM.download]]
+    sha256 = "925c8b6a7c9ddb96f8df02a2dbbda239d411710f87b7b42f7efb14a0da905119"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.x86_64-linux-musl-cxx11-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4e44f2f863021b7e4f2dfbdc3a19d0069a791f41"
+julia_version = "1.6.3"
+os = "windows"
+
+    [[RichDEM.download]]
+    sha256 = "e92b775b722da8fba57aa74c96fc31b8e50126b44c865e92d8dfa07249a53667"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.x86_64-w64-mingw32-cxx03-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7d3a385de9dc3d80c09344720220eac811da4c49"
+julia_version = "1.8.0"
+os = "windows"
+
+    [[RichDEM.download]]
+    sha256 = "7bf6d0d7d564423dfc770ebfd6a6003d675cb8019d3e0a2fc3b94689c2dd8bfe"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.x86_64-w64-mingw32-cxx03-julia_version+1.8.0.tar.gz"
+[[RichDEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3025c9073ca6853ba51854fc8d0a8b01234375b9"
+julia_version = "1.6.3"
+os = "windows"
+
+    [[RichDEM.download]]
+    sha256 = "18e095479b4d9f8b97ab78a1e291c2e731a9cadb9cb5a17e89b38ec8c8cc6267"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.x86_64-w64-mingw32-cxx11-julia_version+1.6.3.tar.gz"
+[[RichDEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6ff7a6eac5f2c4a66686f3663996789e692b80b6"
+julia_version = "1.8.0"
+os = "windows"
+
+    [[RichDEM.download]]
+    sha256 = "88e923ec3c5bc031d3f53cc2758e55aa7a9a49da38f231edcbb2fcfea8fe66ef"
+    url = "https://github.com/JuliaBinaryWrappers/RichDEM_jll.jl/releases/download/RichDEM-v2.3.1+1/RichDEM.v2.3.1.x86_64-w64-mingw32-cxx11-julia_version+1.8.0.tar.gz"
