@@ -1,6 +1,6 @@
 name = "RichDEM_jll"
 uuid = "77183ce2-e64e-50a0-b706-bc4fd4ad6a9c"
-version = "2.3.3+0"
+version = "2.3.3+1"
 
 [deps]
 GDAL_jll = "a7073274-a066-55f0-b90d-d619367d196c"
@@ -16,8 +16,11 @@ OpenMPI_jll = "fe0851c0-eecd-5654-98d4-656369965a5c"
 LLVMOpenMP_jll = "1d63c593-3942-5779-bab2-d838dc0a180e"
 
 [compat]
-JLLWrappers = "1.2.0"
+JLLWrappers = "1.7.0"
 julia = "~1.6, ~1.7, ~1.8, ~1.9, ~1.10"
-GDAL_jll = "=300.202.100"
 NetCDF_jll = "400.902.5"
+GDAL_jll = "=300.202.100"
+Libdl = "< 0.0.1, 1"
+Artifacts = "< 0.0.1, 1"
+HDF5_jll = "~1.12"
 boost_jll = "=1.76.0"
